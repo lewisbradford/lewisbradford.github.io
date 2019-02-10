@@ -1,0 +1,77 @@
+html.sr .load-hidden {
+    visibility: hidden;
+}
+
+body {
+    background: #070707;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+.jumbo {
+    font-size: 72px;
+    margin-bottom: 24px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+.sub {
+    font-family: AvenirNext-DemiBold;
+    font-size: 16px;
+    letter-spacing: 5.4px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.primary-btn {
+    font-size: 20px;
+    font-family: AvenirNext-Regular;
+}
+
+.site-container {
+    height: 100vh;
+    padding-bottom: 20%;
+}
+
+.expand {
+    letter-spacing: 8px;
+    -webkit-transition: all 5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition:         all 5s cubic-bezier(0.165, 0.84, 0.44, 1); 
+}
+
+.move {
+    display: inline-block;
+    &:hover {
+        transform: translateX(10px);
+    }
+}
