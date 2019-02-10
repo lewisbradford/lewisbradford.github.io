@@ -36,7 +36,7 @@ h5 {
 }
 
 .sub {
-  font-family: AvenirNext-DemiBold;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   letter-spacing: 5.4px;
   text-transform: uppercase;
@@ -55,7 +55,7 @@ a:hover {
 
 .primary-btn {
   font-size: 20px;
-  font-family: AvenirNext-Regular;
+  font-family: "Roboto", sans-serif;
 }
 
 .site-container {
