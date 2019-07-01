@@ -2,16 +2,35 @@ html.sr .load-hidden {
     visibility: hidden;
 }
 
+@font-face {
+    font-family: Inter UI;
+    src: url(../fonts/Inter-Regular.woff);
+  }
+
+  @font-face {
+    font-family: Inter UI;
+    src: url(../fonts/Inter-SemiBold.woff);
+    font-weight: bold;
+  }
+
 body {
-    background: #070707;
-    font-family: 'Poppins', sans-serif;
+    background: #fff;
+    font-family: 'Inter UI', sans-serif;
     font-size: 16px;
-    color: white;
+    color: #1B0FF7;
+    @media (prefers-color-scheme: dark) {
+        background: #000;
+    }
 }
 
 .jumbo {
     font-size: 72px;
-    margin-bottom: 24px;
+    font-weight: bold;
+    margin-bottom: 48px;
+    background: -webkit-linear-gradient(45deg, #5048F1, #A93CEA);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h1 {
@@ -45,17 +64,23 @@ h5 {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #1B0FF7;
+    @media (prefers-color-scheme: dark) {
+        color: #fff;
+    }
 }
 
 a:hover {
-    color: white;
+    color: #1B0FF7;
     text-decoration: none;
+    @media (prefers-color-scheme: dark) {
+        color: #fff;
+    }
 }
 
 .primary-btn {
     font-size: 20px;
-    font-family: AvenirNext-Regular;
+    font-weight: regular;
 }
 
 .site-container {
