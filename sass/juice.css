@@ -73,7 +73,7 @@ a {
 }
 @media (prefers-color-scheme: dark) {
   a {
-    color: #fff;
+    color: #BFBBFF;
   }
 }
 
@@ -83,7 +83,7 @@ a:hover {
 }
 @media (prefers-color-scheme: dark) {
   a:hover {
-    color: #fff;
+    color: #BFBBFF;
   }
 }
 
