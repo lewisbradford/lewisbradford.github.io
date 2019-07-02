@@ -7,11 +7,11 @@ html.sr .load-hidden {
     src: url(../fonts/Inter-Regular.woff);
   }
 
-  @font-face {
+@font-face {
     font-family: Inter UI;
     src: url(../fonts/Inter-SemiBold.woff);
     font-weight: bold;
-  }
+}
 
 body {
     background: #fff;
@@ -24,13 +24,17 @@ body {
 }
 
 .jumbo {
-    font-size: 72px;
+    font-size: 64px;
     font-weight: bold;
-    margin-bottom: 48px;
+    margin-bottom: 36px;
     background: -webkit-linear-gradient(45deg, #5048F1, #A93CEA);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    @media (min-width: 768px) {
+        font-size: 72px;
+        margin-bottom: 48px;
+    }
 }
 
 h1 {
